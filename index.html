@@ -11,8 +11,10 @@
   <body>
     <main class="landingpage">
       <section class="hero">
-        <img class="hero__logo" src="./assets/logo-dark.svg" alt="Hero Image"/>
-        <button class="hero__button">Get Started</button>
+        <div class="hero__header">
+          <img class="hero__logo" src="./assets/logo-dark.svg" alt="Hero Image"/>
+          <button class="hero__button">Get Started</button>
+        </div>
         <h1 class="hero__title">Maximize skill, minimize budget</h1>
         <p class="hero__description">Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.</p>
         <button class="hero__button hero__button--gradient-pink">Get Started</button>
@@ -22,39 +24,44 @@
       </section>
 
       <section class="course">
-        <div class="course__card course__card--highlight">
-          <h2 class="course__title">Check out our most popular courses!</h2>
-        </div>
-        <div class="course__card">
-          <img class="course__icon" src="./assets/icon-animation.svg" alt="Animation Icon"/>
-          <h3 class="course__title">Animation</h3>
-          <p class="course__description">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
-          <a href="#" class="course__link">Get Started</a>
-        </div>
-        <div class="course__card">
-          <img class="course__icon" src="./assets/icon-design.svg" alt="Design Icon"/>
-          <h3 class="course__title">Design</h3>
-          <p class="course__description">Create beautiful, usable interfaces to help shape the future of how the web looks.</p>
-          <a href="#" class="course__link">Get Started</a>
-        </div>
-        <div class="course__card">
-          <img class="course__icon" src="./assets/icon-photography.svg" alt="Photography Icon"/>
-          <h3 class="course__title">Photography</h3>
-          <p class="course__description">Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.</p>
-          <a href="#" class="course__link">Get Started</a>
-        </div>
-        <div class="course__card">
-          <img class="course__icon" src="./assets/icon-crypto.svg" alt="Crypto Icon"/>
-          <div class="course__title">Crypto</div>
-          <p class="course__description">All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.</p>
-          <a href="#" class="course__link">Get Started</a>
-        </div>
-        <div class="course__card">
-          <img class="course__icon" src="./assets/icon-business.svg" alt="Business Icon"/>
-          <h3 class="course__title">Business</h3>
-          <p class="course__description">A step-by-step playbook to help you start, scale, and sustain your business without outside investment.</p>
-          <a href="#" class="course__link">Get Started</a>
-        </div>
+        <ul class="course__list">
+          <li class="course__card course__card--highlight">
+            <h2 class="course__title course__title--highlight">Check out our most popular courses!</h2>
+          </li>
+          <li class="course__card">
+            <img class="course__icon" src="./assets/icon-animation.svg" alt="Animation Icon"/>
+            <h3 class="course__title">Animation</h3>
+            <p class="course__description">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
+            <a href="#" class="course__link">Get Started</a>
+          </li>
+          <li class="course__card">
+            <img class="course__icon" src="./assets/icon-design.svg" alt="Design Icon"/>
+            <h3 class="course__title">Design</h3>
+            <p class="course__description">Create beautiful, usable interfaces to help shape the future of how the web looks.</p>
+            <a href="#" class="course__link">Get Started</a>
+          </li>
+          <li class="course__card">
+            <img class="course__icon" src="./assets/icon-photography.svg" alt="Photography Icon"/>
+            <h3 class="course__title">Photography</h3>
+            <p class="course__description">Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.</p>
+            <a href="#" class="course__link">Get Started</a>
+          </li>
+          <li class="course__card">
+            <img class="course__icon" src="./assets/icon-crypto.svg" alt="Crypto Icon"/>
+            <h3 class="course__title">Crypto</h3>
+            <p class="course__description">All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.</p>
+            <a href="#" class="course__link">Get Started</a>
+          </li>
+          <li class="course__card">
+            <img class="course__icon" src="./assets/icon-business.svg" alt="Business Icon"/>
+            <h3 class="course__title">Business</h3>
+            <p class="course__description">A step-by-step playbook to help you start, scale, and sustain your business without outside investment.</p>
+            <a href="#" class="course__link">Get Started</a>
+          </li>
+        </ul>
+
+        <p class="challenge__credit">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="challenge__link">Frontend Mentor</a>.
+            Coded by <a href="https://github.com/arne-witteler" target="_blank" class="challenge__link">Arne Witteler</a>.</p>
       </section>
     </main>
     <footer class="footer">
