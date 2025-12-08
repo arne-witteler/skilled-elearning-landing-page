@@ -12,6 +12,31 @@
   --font-weight-bold: 700;
   --font-weight-extra-bold: 800;
 
-  --gradient-pink: linear-gradient(90deg, hsl(322, 87%, 55%), hsl(13, 100%, 64%));
-  --gradient-purple: linear-gradient(90deg, hsl(237, 100%, 64%), hsl(322, 87%, 55%));
+  --gradient-pink: linear-gradient(0deg, hsl(322, 87%, 55%), hsl(13, 100%, 64%));
+  --gradient-purple: linear-gradient(0deg, hsl(237, 100%, 64%), hsl(322, 87%, 55%));
+  --gradient-blue: linear-gradient(180deg, hsl(0, 0%, 100%), hsl(234, 100%, 97%));
+  
+  --gradient-pink-hover:
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(
+      0deg,
+      hsl(322, 87%, 55%),
+      hsl(13, 100%, 64%)
+    );
+    
+  --gradient-purple-hover:
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(
+      0deg,
+      hsl(237, 100%, 64%),
+      hsl(322, 87%, 55%)
+    );
 }
