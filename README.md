@@ -13,8 +13,6 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
   - [My process](#my-process)
     - [Built with](#built-with)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -40,5 +38,5 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
+- a lot of trouble
